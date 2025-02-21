@@ -1,0 +1,59 @@
+﻿@model List<Job>
+
+@{
+    ViewData["Title"] = "All Jobs";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4 fw-bold text-primary">Available Job Openings</h1>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle shadow-sm">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th scope="col">Job Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col" class="text-center">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Job job in Model)
+                {
+                    <tr>
+                        <td class="fw-semibold">
+                            <i class="bi bi-briefcase-fill text-primary"></i> @job.jobName
+                        </td>
+                        <td class="text-muted">@job.description</td>
+                        <td class="text-center">
+                            @if (job.statusJob == "Apply")
+                            {
+                                <form asp-controller="Applicant" asp-action="AddUser" asp-route-id="@job.jobID" method="get">
+                                    <button type="submit" class="btn btn-success btn-sm px-4" data-bs-toggle="tooltip" title="Click to apply for this job">
+                                        <i class="bi bi-check-circle-fill"></i> Apply Now
+                                    </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary px-3 py-2" data-bs-toggle="tooltip" title="You have already applied">
+                                    <i class="bi bi-lock-fill"></i> Applied
+                                </span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+</script>

@@ -1,0 +1,136 @@
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\appsettings.Development.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\appsettings.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.staticwebassets.endpoints.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.exe
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.deps.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.runtimeconfig.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.pdb
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Humanizer.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.csproj.AssemblyReference.cache
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.AssemblyInfoInputs.cache
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.AssemblyInfo.cs
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.csproj.CoreCompileInputs.cache
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.MvcApplicationPartsAssemblyInfo.cache
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.RazorAssemblyInfo.cache
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.RazorAssemblyInfo.cs
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\scopedcss\bundle\Healthcare_And_Wellness.styles.css
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.build.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.development.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.Healthcare_And_Wellness.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.Healthcare_And_Wellness.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.build.Healthcare_And_Wellness.props
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Healthcare_And_Wellness.props
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Healthcare_And_Wellness.props
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthca.6DB4E2A7.Up2Date
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\refint\Healthcare_And_Wellness.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.pdb
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.genruntimeconfig.cache
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\ref\Healthcare_And_Wellness.dll
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\libman.json
+C:\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.staticwebassets.runtime.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\appsettings.Development.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\appsettings.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\libman.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.staticwebassets.runtime.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.staticwebassets.endpoints.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.exe
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.deps.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.runtimeconfig.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Healthcare_And_Wellness.pdb
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Humanizer.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.csproj.AssemblyReference.cache
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.GeneratedMSBuildEditorConfig.editorconfig
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.AssemblyInfoInputs.cache
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.AssemblyInfo.cs
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.csproj.CoreCompileInputs.cache
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.MvcApplicationPartsAssemblyInfo.cache
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.RazorAssemblyInfo.cache
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.RazorAssemblyInfo.cs
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\scopedcss\bundle\Healthcare_And_Wellness.styles.css
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.build.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.development.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.Healthcare_And_Wellness.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.Healthcare_And_Wellness.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.build.Healthcare_And_Wellness.props
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Healthcare_And_Wellness.props
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Healthcare_And_Wellness.props
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthca.6DB4E2A7.Up2Date
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\refint\Healthcare_And_Wellness.dll
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.pdb
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\Healthcare_And_Wellness.genruntimeconfig.cache
+E:\Conestoga\Semester4\INFO2310-Application Project\Healthcare_And_Wellness2\Healthcare_And_Wellness\Healthcare_And_Wellness\obj\Debug\net6.0\ref\Healthcare_And_Wellness.dll

@@ -1,0 +1,40 @@
+﻿@model Job
+@{
+    ViewData["Title"] = "Add a new job";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Add a New Job</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Administrator" asp-action="AddJobs" method="post" enctype="application/x-www-form-urlencoded">
+                        <div class="text-danger mb-3" asp-validation-summary="All"></div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="jobName" class="form-label">Title of the Job:</label>
+                            <input type="text" asp-for="jobName" class="form-control" placeholder="Enter the job title" />
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <input type="hidden" asp-for="statusJob" value="Apply" />
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="description" class="form-label">Description of the Job:</label>
+                            <textarea asp-for="description" class="form-control" rows="5" placeholder="Provide a description of the job"></textarea>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-success btn-lg px-4">Add Job</button>
+                            <a asp-controller="Administrator" asp-action="ListJobs" class="btn btn-outline-secondary btn-lg px-4 ms-3">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

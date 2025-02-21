@@ -1,0 +1,70 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header text-center bg-primary text-white">
+            <h2 class="mb-0">Profile</h2>
+        </div>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div id="successMessage" class="alert alert-success text-center">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        <div class="card-body">
+            <div class="text-center mb-4">
+                @if (!string.IsNullOrEmpty(Model.ProfilePic))
+                {
+                    <img src="@Url.Action("DisplayProfilePic", "Account", new { id = Model.Id })" alt="Profile Picture" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;" />
+                }
+                else
+                {
+                    <img src="/ProfilePics/default_user.png" alt="Default Profile Picture" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;" />
+                }
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <strong>Username:</strong> <span class="ms-2">@Model.Username</span>
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Name:</strong> <span class="ms-2">@Model.Name</span>
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Age:</strong> <span class="ms-2">@Model.Age</span>
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Date of Birth:</strong> <span class="ms-2">@Model.DateOfBirth</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-action="EditProfile" class="btn btn-primary btn-lg">
+                    Edit Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var successMessage = document.getElementById("successMessage");
+            if (successMessage)
+            {
+                successMessage.style.transition = "opacity 0.5s ease";
+                successMessage.style.opacity = 0;
+                setTimeout(() => successMessage.remove(), 500);
+            }
+        }, 5000);
+    </script>
+}

@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="~/ProfilePics/Logo.png" alt="Logo" style="height: 60px; width: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Home">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                    </li>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.Username) && ViewBag.IsResetPasswordPage != true)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Welcome Page</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Profile">Profile</a>
+                        </li>
+                        @if (ViewBag.Role == "Admin")
+                        {
+                            <!-- Dropdown for Admin Job Management -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="jobDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Job Management
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="jobDropdown">
+                                    <li><a class="dropdown-item" asp-controller="Administrator" asp-action="AddJobs">Add Job</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Administrator" asp-action="ListJobs">List Jobs</a></li>
+                                </ul>
+                            </li>
+                        }
+                        else if (ViewBag.Role == "Member")
+                        {
+                            <!-- Dropdown for Admin Job Management -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="jobDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Job Management
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="jobDropdown">
+                                    <li><a class="dropdown-item" asp-controller="Applicant" asp-action="ListJobs">List of Jobs</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="jobDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Healthcare Tools
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="jobDropdown">
+                                    <li><a class="dropdown-item" asp-controller="BmiCalculator" asp-action="BmiCalculation">BMI Calculator</a></li>
+                                </ul>
+                            </li>
+                        }
+                    }
+
+                </ul>
+                @if (!string.IsNullOrEmpty(ViewBag.Username) && ViewBag.IsResetPasswordPage != true)
+                {
+                    <div class="dropdown user-profile">
+                        <a class="d-flex align-items-center text-decoration-none dropdown-toggle" role="button" id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false">
+                            @{
+                                var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+                                var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+                            }
+                            @if (currentAction == "Index" && currentController == "Home" || currentAction == "Profile" && currentController == "Account")
+                            {
+                                @if (!string.IsNullOrEmpty(Model.ProfilePic))
+                                {
+                                    <img src="@Url.Action("DisplayProfilePic", "Account", new { id = Model.Id })" alt="Profile Picture" class="rounded-circle img-fluid" style="width: 50px; height: 50px; object-fit: cover;" />
+                                }
+                                else
+                                {
+                                    <img src="/ProfilePics/default_user.png" alt="Default Profile Picture" class="rounded-circle img-fluid" style="width: 50px; height: 50px; object-fit: cover;" />
+                                }
+                            }
+                            <h6 class="ms-2">@ViewBag.UserName</h6>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end shadow-sm" aria-labelledby="dropdownUser">
+                            <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
+                            <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Log Out</a></li>
+                            <li><a class="dropdown-item" asp-controller="Account" asp-action="Register">Create New Account</a></li>
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper flex-grow-1 py-4">
+        @RenderBody()
+    </div>
+    <footer class="py-3 bg-light border-top">
+        <div class="container text-center">
+            <span class="text-muted">&copy; ​​Smart Medical Helpers. All rights reserved.</span>
+        </div>
+    </footer>
+    @RenderSection("Scripts", required: false)
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

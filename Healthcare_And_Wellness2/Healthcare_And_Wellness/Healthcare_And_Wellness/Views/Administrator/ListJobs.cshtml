@@ -1,0 +1,44 @@
+﻿@model List<Job>
+
+@{
+    ViewData["Title"] = "All Jobs";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <!-- Add New Job Button -->
+            <form method="get" asp-controller="Administrator" asp-action="AddJobs">
+                <button type="submit" class="btn btn-primary btn-lg mb-4">Add a New Job Post</button>
+            </form>
+
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Job Listings</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Job Table -->
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Manage Job Post</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Job job in Model)
+                            {
+                                <tr>
+                                    <td>@job.jobName</td>
+                                    <td>
+                                        <a class="btn btn-warning btn-sm" asp-controller="Administrator" asp-action="JobPage" asp-route-id="@job.jobID">Manage</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Login";
+}
+<div class="d-flex justify-content-center align-items-center vh-100 bg-gradient">
+    <div class="card shadow-lg border-0" style="max-width: 400px; width: 100%;">
+        <div class="card-header text-center bg-primary text-white py-4">
+            <h3 class="mb-0">Welcome!</h3>
+        </div>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div id="successMessage" class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+
+        @if (TempData["SessionTimeoutMessage"] != null)
+        {
+            <div id="errorMessage" class="alert alert-warning">@TempData["SessionTimeoutMessage"]</div>
+        }
+
+        <div class="card-body p-4">
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Username" id="username" name="username" class="form-control" placeholder="Username" />
+                    <label asp-for="Username">Username</label>
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" id="password" name="password" type="password" class="form-control" placeholder="Password" />
+                    <label asp-for="Password">Password</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid mb-3">
+                    <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                </div>
+
+                <div class="text-center">
+                    <a asp-action="ForgotPassword" class="text-muted">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+        <div class="card-footer text-center bg-light py-3">
+            <small class="text-muted">Don't have an account? <a asp-action="Register" class="text-primary fw-bold">Register</a></small>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var successMessage = document.getElementById("successMessage");
+            if (successMessage)
+            {
+                successMessage.style.transition = "opacity 0.5s ease";
+                successMessage.style.opacity = 0;
+                setTimeout(() => successMessage.remove(), 300);
+            }
+        }, 5000);
+
+         setTimeout(function () {
+            var errorMessage = document.getElementById("errorMessage");
+            if (errorMessage)
+            {
+                errorMessage.style.transition = "opacity 0.5s ease";
+                errorMessage.style.opacity = 0;
+                setTimeout(() => errorMessage.remove(), 300);
+            }
+        }, 5000);
+    </script>
+}

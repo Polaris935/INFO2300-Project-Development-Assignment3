@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Manage the Job";
+}
+@model JobViewModel
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">@Model?.Job?.jobName</h4>
+                </div>
+                <div class="card-body">
+                    <h5><strong>Job Description:</strong></h5>
+                    <p>@Model?.Job?.description</p>
+
+                    <hr class="my-4">
+
+                    <h5><strong>Applicants:</strong></h5>
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model?.applicants?.Count > 0)
+                            {
+                                @foreach (Applicant user in Model.applicants)
+                                {
+                                    <tr>
+                                        <td>@user.nameUser</td>
+                                        <td>@user.emailUser</td>
+                                        <td>@user.statusUser</td>
+                                        <td>
+                                            @if (user.statusUser == "Accepted" || user.statusUser == "Denied")
+                                            {
+                                                <span class="badge bg-success">Sent</span>
+                                            }
+                                            else
+                                            {
+                                                <div>
+                                                    <a class="btn btn-success btn-sm" asp-controller="Administrator" asp-action="SendGmailAccept" asp-route-id="@user.userID">Accept</a>
+                                                    <span class="mx-2">|</span>
+                                                    <a class="btn btn-danger btn-sm" asp-controller="Administrator" asp-action="SendGmailDeny" asp-route-id="@user.userID">Deny</a>
+                                                </div>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center">No applicants found for this job.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    <hr class="my-4">
+
+                    <a asp-controller="Administrator" asp-action="ListJobs" class="btn btn-primary">Go back to the Previous page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+﻿@model BmiCalculator;
+@{
+    ViewData["Title"] = "Calculator";
+}
+
+@* bootstrap will help the screen to expand to shrink according to the screen of the device *@
+<div class="container mt-5">
+    <h1 class="mb-4">Bmi Calculator</h1>
+    <form asp-controller="BmiCalculator" asp-action="BmiCalculation" method="post">
+        @* to show errors/validations this on the top of the page  *@
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="Height" class="form-label">Height</label>
+            <input type="text" class="form-control" asp-for="Height" placeholder="Enter Height" />
+            @* to show errors/validations on the side of the label or any other thing *@
+            <span asp-validation-for="Height" class="Alert-Danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Weight" class="form-label">Weight</label>
+            <input type="text" asp-for="Weight" class="form-control" placeholder="Enter Weight" />
+            <span asp-validation-for="Weight" class="Alert-Danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Result" class="form-label">Result</label>
+            <input type="text" asp-for="Result" disabled="disabled" class="form-control" value="@Model.Result?.ToString("0.00")" />
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Calculate</button>
+            <a asp-controller="BmiCalculator" class="btn btn-secondary" asp-action="BmiCalculation">Clear</a>
+        </div>
+    </form>
+</div>

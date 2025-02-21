@@ -1,0 +1,20 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h6 class="display-4 mb-4">Welcome to the Recruitment and Management for Healthcare and Community Wellness.</h6>
+        <p class="lead text-muted mb-5">Some functions are still under development. Please wait until then!</p>
+
+        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+            <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg px-4">
+                Login
+            </a>
+            <a asp-controller="Account" asp-action="Register" class="btn btn-outline-primary btn-lg px-4">
+                Register
+            </a>
+        </div>
+    </div>
+</div>
